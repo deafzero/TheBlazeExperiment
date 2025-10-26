@@ -1,60 +1,30 @@
-# Proyek Pengujian Web DemoBlaze 🚀
+<h1 align="center"> Pengujian Web DemoBlaze 🤖 </h1>
 
 ## Pendahuluan 🌟
-Selamat datang di repositori pengujian otomatis untuk DemoBlaze, sebuah website demo e-commerce. Kami telah menyusun rangkaian pengujian yang menyeluruh untuk memastikan keandalan fitur-fitur utama seperti login pengguna, penjelajahan produk, pengelolaan keranjang belanja, dan proses checkout.
+<p align="justify">Welcome! Proyek kali ini merupakan pengujian sistem E-commerce lagi. berbeda dengan yang sebelumnya proyek ini akan mencakup <span style="font-weight: bold; font-style: italic;">Manual Testing</span> dan <span style="font-weight: bold; font-style: italic;">Automation Testing</span>. </p>
+<p align="justify">Proyek Kali ini merupakan wadah untuk mendemontrasikan kemampuan dalam melakukan Identifikasi, Perancangan Dokumen, Eksekusi Manual Testing, dan Pengembangan Script Automation.</p>
+
+
+## Tahapan ⏳:
+1. Melakukan prosess indentifikasi ke web [https://www.demoblaze.com/](https://www.demoblaze.com/). cara menguji saya dengan cara mencoba fitur satu per satu. 
+2. Kemudian menulis test plan.
+3. Menulis test scenario dibantu dengan AI agar meningkatkan efesiensi waktu dalam pengerjaan. 
+3. Menulis test case.
+4. Mengelompokan bagian mana yang cocok __Manual Testing__ dan __Automation Testing__.
+5. Menulis dan mengembangkan script __Automation__.
+6. Menjalakan test execution baik __Manual__ maupun __Automation__.
+7. Mendokumentasikan setiap alur pengujian.
 
 ## Fitur yang Diuji ✨
-- Pendaftaran & Login Pengguna
-- Navigasi Produk
-- Operasi Keranjang Belanja
-- Alur Pembelian
-- Formulir Kontak
-- Elemen Pengalaman Pengguna
+- Login and SignUp - __Automation__.
+- Daftar produk dan Filter Produk - __Manual__.
+- Contact - __Automation__.
+- Cart.
 
-## Teknologi yang Digunakan 🛠️
-- Selenium WebDriver
-- Framework TestNG
-- Bahasa Pemrograman Java
-- Manajemen Proyek Maven
-- Pola Desain Page Object Model
 
-## Cara Memulai 🏃‍♂️
-1. Clone repositori ini
-2. Pasang dependensi:
-    ```bash
-    mvn install
-    ```
-3. Jalankan pengujian:
-    ```bash
-    mvn test
-    ```
+ <p align="center" style="font-weight: bold;" >Good Luck Guys!</p>
 
-## Struktur Pengujian 📁
-```
-src/
-├── main/
-│   └── java/
-│       └── pages/
-└── test/
-     └── java/
-          └── tests/
-```
+___
 
-## Panduan Kontribusi 🤝
-1. Fork repositori
-2. Buat branch fitur
-3. Commit perubahan
-4. Push ke branch
-5. Buat Pull Request
 
-## Hasil & Laporan 📊
-Laporan pengujian dapat ditemukan di direktori `test-output` setelah eksekusi.
 
-## Lisensi 📝
-Lisensi MIT
-
-## Kontak 📫
-Untuk pertanyaan dan masukan, silakan buat issue di repositori ini.
-
----
-Selamat Menguji! 🎯
