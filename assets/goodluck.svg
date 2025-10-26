@@ -17,91 +17,101 @@
     <!-- g -->
     <text class="char" x="0" y="0">g
       <animate attributeName="opacity" 
-               from="0" to="1" 
-               dur="0.15s" 
+               values="0;1;1;0" 
+               keyTimes="0;0.03;0.7;1" 
+               dur="5s" 
                begin="0s" 
-               fill="freeze"/>
+               repeatCount="indefinite"/>
     </text>
     
     <!-- o -->
     <text class="char" x="28" y="0">o
       <animate attributeName="opacity" 
-               from="0" to="1" 
-               dur="0.15s" 
+               values="0;1;1;0" 
+               keyTimes="0;0.03;0.7;1" 
+               dur="5s" 
                begin="0.15s" 
-               fill="freeze"/>
+               repeatCount="indefinite"/>
     </text>
     
     <!-- o -->
     <text class="char" x="56" y="0">o
       <animate attributeName="opacity" 
-               from="0" to="1" 
-               dur="0.15s" 
+               values="0;1;1;0" 
+               keyTimes="0;0.03;0.7;1" 
+               dur="5s" 
                begin="0.3s" 
-               fill="freeze"/>
+               repeatCount="indefinite"/>
     </text>
     
     <!-- d -->
     <text class="char" x="84" y="0">d
       <animate attributeName="opacity" 
-               from="0" to="1" 
-               dur="0.15s" 
+               values="0;1;1;0" 
+               keyTimes="0;0.03;0.7;1" 
+               dur="5s" 
                begin="0.45s" 
-               fill="freeze"/>
+               repeatCount="indefinite"/>
     </text>
     
-    <!-- space -->
+    <!-- spasi -->
     <text class="char" x="112" y="0">  
       <animate attributeName="opacity" 
-               from="0" to="1" 
-               dur="0.15s" 
+               values="0;1;1;0" 
+               keyTimes="0;0.03;0.7;1" 
+               dur="5s" 
                begin="0.6s" 
-               fill="freeze"/>
+               repeatCount="indefinite"/>
     </text>
     
-    <!-- l -->
-    <text class="char" x="160" y="0">l
+    <!-- l (posisi didekatkan) -->
+    <text class="char" x="140" y="0">l
       <animate attributeName="opacity" 
-               from="0" to="1" 
-               dur="0.15s" 
+               values="0;1;1;0" 
+               keyTimes="0;0.03;0.7;1" 
+               dur="5s" 
                begin="0.75s" 
-               fill="freeze"/>
+               repeatCount="indefinite"/>
     </text>
     
-    <!-- u -->
-    <text class="char" x="178" y="0">u
+    <!-- u (posisi disesuaikan) -->
+    <text class="char" x="158" y="0">u
       <animate attributeName="opacity" 
-               from="0" to="1" 
-               dur="0.15s" 
+               values="0;1;1;0" 
+               keyTimes="0;0.03;0.7;1" 
+               dur="5s" 
                begin="0.9s" 
-               fill="freeze"/>
+               repeatCount="indefinite"/>
     </text>
     
-    <!-- c -->
-    <text class="char" x="206" y="0">c
+    <!-- c (posisi disesuaikan) -->
+    <text class="char" x="186" y="0">c
       <animate attributeName="opacity" 
-               from="0" to="1" 
-               dur="0.15s" 
+               values="0;1;1;0" 
+               keyTimes="0;0.03;0.7;1" 
+               dur="5s" 
                begin="1.05s" 
-               fill="freeze"/>
+               repeatCount="indefinite"/>
     </text>
     
-    <!-- k -->
-    <text class="char" x="230" y="0">k
+    <!-- k (posisi disesuaikan) -->
+    <text class="char" x="210" y="0">k
       <animate attributeName="opacity" 
-               from="0" to="1" 
-               dur="0.15s" 
+               values="0;1;1;0" 
+               keyTimes="0;0.03;0.7;1" 
+               dur="5s" 
                begin="1.2s" 
-               fill="freeze"/>
+               repeatCount="indefinite"/>
     </text>
     
-    <!-- ! -->
-    <text class="char" x="258" y="0">!
+    <!-- ! (posisi disesuaikan) -->
+    <text class="char" x="238" y="0">!
       <animate attributeName="opacity" 
-               from="0" to="1" 
-               dur="0.15s" 
+               values="0;1;1;0" 
+               keyTimes="0;0.03;0.7;1" 
+               dur="5s" 
                begin="1.35s" 
-               fill="freeze"/>
+               repeatCount="indefinite"/>
     </text>
   </g>
 </svg>
