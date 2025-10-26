@@ -21,10 +21,11 @@
 - Contact - __Automation__.
 - Cart.
 
-
- <p align="center" style="font-weight: bold;" >Good Luck Guys!</p>
-
 ___
+<p align="center">
+  <img src="./assets/goodluck.svg" alt="Typing Animation" />
+</p
+
 
 
 

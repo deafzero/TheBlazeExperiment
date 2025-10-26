@@ -1,0 +1,107 @@
+<svg width="450" height="100" viewBox="0 0 450 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define styles -->
+  <defs>
+    <style>
+      .char {
+        font-family: 'Arial Black', 'Impact', sans-serif;
+        font-size: 44px;
+        font-weight: 900;
+        fill: white;
+        opacity: 0;
+      }
+    </style>
+  </defs>
+  
+  <!-- Text "good luck!" with individual character animation -->
+  <g transform="translate(50, 65)">
+    <!-- g -->
+    <text class="char" x="0" y="0">g
+      <animate attributeName="opacity" 
+               from="0" to="1" 
+               dur="0.15s" 
+               begin="0s" 
+               fill="freeze"/>
+    </text>
+    
+    <!-- o -->
+    <text class="char" x="28" y="0">o
+      <animate attributeName="opacity" 
+               from="0" to="1" 
+               dur="0.15s" 
+               begin="0.15s" 
+               fill="freeze"/>
+    </text>
+    
+    <!-- o -->
+    <text class="char" x="56" y="0">o
+      <animate attributeName="opacity" 
+               from="0" to="1" 
+               dur="0.15s" 
+               begin="0.3s" 
+               fill="freeze"/>
+    </text>
+    
+    <!-- d -->
+    <text class="char" x="84" y="0">d
+      <animate attributeName="opacity" 
+               from="0" to="1" 
+               dur="0.15s" 
+               begin="0.45s" 
+               fill="freeze"/>
+    </text>
+    
+    <!-- space -->
+    <text class="char" x="112" y="0">  
+      <animate attributeName="opacity" 
+               from="0" to="1" 
+               dur="0.15s" 
+               begin="0.6s" 
+               fill="freeze"/>
+    </text>
+    
+    <!-- l -->
+    <text class="char" x="160" y="0">l
+      <animate attributeName="opacity" 
+               from="0" to="1" 
+               dur="0.15s" 
+               begin="0.75s" 
+               fill="freeze"/>
+    </text>
+    
+    <!-- u -->
+    <text class="char" x="178" y="0">u
+      <animate attributeName="opacity" 
+               from="0" to="1" 
+               dur="0.15s" 
+               begin="0.9s" 
+               fill="freeze"/>
+    </text>
+    
+    <!-- c -->
+    <text class="char" x="206" y="0">c
+      <animate attributeName="opacity" 
+               from="0" to="1" 
+               dur="0.15s" 
+               begin="1.05s" 
+               fill="freeze"/>
+    </text>
+    
+    <!-- k -->
+    <text class="char" x="230" y="0">k
+      <animate attributeName="opacity" 
+               from="0" to="1" 
+               dur="0.15s" 
+               begin="1.2s" 
+               fill="freeze"/>
+    </text>
+    
+    <!-- ! -->
+    <text class="char" x="258" y="0">!
+      <animate attributeName="opacity" 
+               from="0" to="1" 
+               dur="0.15s" 
+               begin="1.35s" 
+               fill="freeze"/>
+    </text>
+  </g>
+</svg>
